@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/prime-axis-exports.png";
+
 
 export default function Home() {
 
@@ -15,32 +17,69 @@ return (
 <div>
 
 
+{/* Company Logo */}
+
+<img
+
+src={logo}
+
+alt="Prime Axis Exports Logo"
+
+className="w-56 mb-6"
+
+/>
+
+
+
 <h1 className="text-5xl font-bold text-green-900 leading-tight">
 
-Premium Turmeric
+Premium Indian Turmeric
 
 <span className="text-yellow-600">
- {" "}Exports Worldwide
+{" "}Exports Worldwide
 </span>
 
 </h1>
 
 
-<p className="mt-6 text-lg text-gray-700">
 
-Prime Axis Exports delivers high quality
-turmeric powder and turmeric capsules
-from India to global markets.
+<p className="mt-6 text-lg text-gray-700 leading-relaxed">
+
+
+Prime Axis Exports specializes in supplying premium-quality 
+Indian turmeric powder and turmeric capsules to international markets.
+
+
+<br /><br />
+
+
+Our products are carefully sourced from trusted farms, processed 
+with strict quality standards, and packed to meet global export 
+requirements.
+
+
+<br /><br />
+
+
+From food and spice industries to wellness and nutraceutical 
+applications, we deliver authentic turmeric solutions with rich 
+color, excellent curcumin value, and reliable worldwide supply.
+
 
 </p>
+
+
 
 
 <div className="mt-8 space-x-4">
 
 
 <Link
+
 to="/products"
+
 className="bg-yellow-600 text-white px-8 py-3 rounded-full hover:bg-yellow-700 transition"
+
 >
 
 View Products
@@ -49,9 +88,13 @@ View Products
 
 
 
+
 <Link
+
 to="/contact"
+
 className="border border-green-900 text-green-900 px-8 py-3 rounded-full hover:bg-green-900 hover:text-white transition"
+
 >
 
 Contact Us
@@ -62,7 +105,10 @@ Contact Us
 </div>
 
 
+
 </div>
+
+
 
 
 
@@ -73,6 +119,8 @@ Contact Us
 
 src="https://images.unsplash.com/photo-1615485500704-8e990f9900f7"
 
+alt="Premium Turmeric Products"
+
 className="w-full h-[400px] object-cover"
 
 />
@@ -81,7 +129,10 @@ className="w-full h-[400px] object-cover"
 </div>
 
 
+
 </section>
+
+
 
 
 
@@ -104,30 +155,48 @@ Why Choose Prime Axis Exports?
 <div className="grid md:grid-cols-3 gap-8 mt-10">
 
 
+
 <div className="bg-green-800 p-8 rounded-xl">
 
+
 <h3 className="text-xl font-bold">
+
 🌱 Premium Quality
+
 </h3>
 
+
 <p className="mt-3">
-Naturally processed turmeric with excellent color and curcumin value.
+
+Authentic Indian turmeric with natural color, purity, 
+and excellent curcumin value.
+
 </p>
+
 
 </div>
 
 
 
 
+
 <div className="bg-green-800 p-8 rounded-xl">
 
+
 <h3 className="text-xl font-bold">
+
 🌎 Worldwide Supply
+
 </h3>
 
+
 <p className="mt-3">
-Reliable export services for international buyers.
+
+Reliable export solutions for international buyers 
+and distributors.
+
 </p>
+
 
 </div>
 
@@ -137,13 +206,21 @@ Reliable export services for international buyers.
 
 <div className="bg-green-800 p-8 rounded-xl">
 
+
 <h3 className="text-xl font-bold">
+
 📦 Export Packaging
+
 </h3>
 
+
 <p className="mt-3">
-Custom packaging solutions based on customer requirements.
+
+Custom packaging options designed according to 
+customer and market requirements.
+
 </p>
+
 
 </div>
 
@@ -152,6 +229,7 @@ Custom packaging solutions based on customer requirements.
 
 
 </section>
+
 
 
 
@@ -186,10 +264,11 @@ Turmeric Powder
 </h3>
 
 
-<p className="mt-4">
+<p className="mt-4 text-gray-700">
 
-High quality turmeric powder suitable for food,
-spice and wellness industries.
+
+Premium quality turmeric powder from India suitable 
+for food, spice, and commercial industries.
 
 </p>
 
@@ -211,10 +290,11 @@ Turmeric Capsules
 </h3>
 
 
-<p className="mt-4">
+<p className="mt-4 text-gray-700">
 
-Premium turmeric capsules for health and
-nutraceutical markets.
+
+High-quality turmeric capsules for wellness and 
+nutraceutical markets worldwide.
 
 </p>
 
@@ -222,11 +302,43 @@ nutraceutical markets.
 </div>
 
 
-
 </div>
 
 
 </section>
+
+
+
+
+
+
+
+{/* Export Message */}
+
+
+<section className="bg-[#f5e8c8] py-14 px-10 text-center">
+
+
+<h2 className="text-3xl font-bold text-green-900">
+
+Delivering The Golden Essence Of India To The World
+
+</h2>
+
+
+<p className="mt-5 text-gray-700 max-w-4xl mx-auto">
+
+
+Prime Axis Exports focuses on quality, trust, and long-term 
+partnerships by delivering premium turmeric products to global buyers.
+
+
+</p>
+
+
+</section>
+
+
 
 
 
@@ -240,16 +352,19 @@ nutraceutical markets.
 
 <h2 className="text-4xl font-bold">
 
-Looking for a Reliable Turmeric Supplier?
+Looking For A Reliable Turmeric Supplier?
 
 </h2>
 
 
+
 <p className="mt-4 text-lg">
 
-Get in touch with us for export enquiries.
+Contact Prime Axis Exports for premium turmeric products 
+and international supply solutions.
 
 </p>
+
 
 
 <Link
