@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/prime-axis-exports.png";
+import logo from "../assets/Prime-axis-exports.png";
 
 
 export default function Home() {
