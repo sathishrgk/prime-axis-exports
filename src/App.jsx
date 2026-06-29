@@ -15,12 +15,9 @@ return(
 
 <BrowserRouter>
 
-
 <Navbar/>
 
-
 <Routes>
-
 
 <Route path="/" element={<Home/>}/>
 
@@ -32,15 +29,12 @@ return(
 
 <Route path="/contact" element={<Contact/>}/>
 
-
 </Routes>
-
 
 </BrowserRouter>
 
 )
 
 }
-
 
 export default App;
