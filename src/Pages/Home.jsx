@@ -21,7 +21,7 @@ return (
 
 <h1 className="text-5xl font-bold text-green-900 leading-tight">
 
-Premium Exports From India
+Bringing India's Finest Quality
 
 <span className="text-yellow-600">
 {" "}To The World

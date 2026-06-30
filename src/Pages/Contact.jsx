@@ -63,7 +63,7 @@ return(
 
 <h1 className="text-5xl font-bold text-green-900">
 
-Contact Prime Axis Exports
+CONTACT PRIME AXIS EXPORTS
 
 </h1>
 

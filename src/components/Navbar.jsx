@@ -43,7 +43,7 @@ className="w-16 h-16 md:w-20 md:h-20 object-contain"
 
 <h1 className="text-xl md:text-3xl font-bold text-white">
 
-Prime Axis Exports
+PRIME AXIS EXPORTS
 
 </h1>
 
